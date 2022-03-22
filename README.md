@@ -4,14 +4,6 @@
 #### npm
 Project is created using Node.js and npm to run the project and install the dependencies
 Installation guide: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-
-### Running the Project
-The version of nodejs is v16.14.0.
-The version of npm is 8.3.1.
-1. Once the node version is installed, run `npm install` to install the packages necessary to run the project
-2. After the packages are installed, run `npm start` to start the server on localhost port 8888 which you can access at `localhost:8888`
-
-### Dependencies
 #### Express
 The primary use of Express is to provide server-side logic for web and mobile applications. 
 Express is a web application framework for Node. js that allows you to spin up robust APIs and web servers in a much easier and cleaner way. It is a lightweight package that does not obscure the core Node.
@@ -32,5 +24,9 @@ Body-parser is the Node. js body parsing middleware. It is responsible for parsi
 Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
 To install run:
 `npm i body-parser`
+
 ### Running the Project
-1. In the root project directory, run `npm install` and `npm start` to start the server, listening on localhost:8888.
+The version of nodejs is v16.14.0.
+The version of npm is 8.3.1.
+1. Once the node version is installed, in the root project directory run `npm install` to install the packages necessary to run the project
+2. After the packages are installed, run `npm start` to start the server on localhost port 8888 which you can access at `localhost:8888`
